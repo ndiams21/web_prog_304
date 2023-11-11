@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-size: 18px;
+}
+
+/* div {
+    text-align: center;
+}
+
+div > div {
+    margin-top: 20px;
+} */
+
+.div1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.div2 {
+    top: 30%;
+    position: absolute;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    margin: 5px;
+}
+
+.btn_div {
+    position: absolute;
+    top: 80%;
+}
+
+h1 {
+    position: absolute;
+    top: 20%;
+}
+
+footer {
+    top: 95%;
+    position: absolute;
+}
+
+.core_values p {
+    display: block;
+    text-align: left;
+}
+span {
+    color: blue;
+    font-size: x-large;
+
+    font-weight: bolder;
+}
